@@ -30,8 +30,6 @@ This app allows you to:
   python -m ipykernel install --user
   ```
 
-````
-
 ### Clone and Install
 
 ```bash
@@ -110,4 +108,4 @@ furnished to do so, subject to the following conditions:
 
 ---
 
-````
+
