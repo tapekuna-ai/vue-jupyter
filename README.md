@@ -17,6 +17,8 @@ This app allows you to:
 - **Save changes** back to the Jupyter server.
 - **Remember your last connection** (saved locally for quick reconnect).
 
+![Demo Animation](media/animation-fast.gif)
+
 ---
 
 ## 🚀 Build & Run
@@ -65,11 +67,12 @@ Open your browser at [http://localhost:5173](http://localhost:5173).
 
 2. In the Vue frontend:
 
-   * Enter either:
+   - Enter either:
 
-     * The **full URL** (e.g., `http://localhost:8888/?token=abcd1234`), or
-     * Just the **token** (defaults to `http://localhost:8888`).
-   * Click **Connect**.
+     - The **full URL** (e.g., `http://localhost:8888/?token=abcd1234`), or
+     - Just the **token** (defaults to `http://localhost:8888`).
+
+   - Click **Connect**.
 
 3. The app will test the connection and **save it locally** (in your browser).
    On your next visit, you can **reuse the last connection** with one click.
@@ -78,17 +81,18 @@ Open your browser at [http://localhost:5173](http://localhost:5173).
 
 ## ✨ Features
 
-* **Markdown with Math** – equations rendered via KaTeX:
+- **Markdown with Math** – equations rendered via KaTeX:
 
-  * Inline: `$E=mc^2$`
-  * Block:
+  - Inline: `$E=mc^2$`
+  - Block:
 
     ```
     $$\int_0^\infty e^{-x} dx = 1$$
     ```
-* **SVG Plot Support** – e.g., matplotlib or seaborn with `svg` backend.
-* **Persistent Connection** – remembers last server and token.
-* **MIT Licensed** – free to use and modify.
+
+- **SVG Plot Support** – e.g., matplotlib or seaborn with `svg` backend.
+- **Persistent Connection** – remembers last server and token.
+- **MIT Licensed** – free to use and modify.
 
 ---
 
@@ -104,8 +108,6 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-*(Full license text is included in the `LICENSE` file.)*
+_(Full license text is included in the `LICENSE` file.)_
 
 ---
-
-
